@@ -15,8 +15,8 @@ int main() {
   int user;
   
   std::cout << "1) Rock\n";
-	std::cout << "2) Paper\n";
-	std::cout << "3) Scissors\n";
+  std::cout << "2) Paper\n";
+  std::cout << "3) Scissors\n";
   std::cout << "4) Lizard\n";
   std::cout << "5) Spock\n";
   std::cout << "Choose your weapon: ";
@@ -133,10 +133,10 @@ int main() {
           break;
       }
       break;
-		default: //Human chose outside 1-5 range
-    	std::cout << "Did you try to cheat?!\n";
-    	break;
-	}//end user switch
+    default: //Human chose outside 1-5 range
+      std::cout << "Did you try to cheat?!\n";
+      break;
+  }//end user switch
   
   std::cout << "Thank you for playing. Put me in a loop to play more!\n";
   
